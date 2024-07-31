@@ -31,6 +31,7 @@ body {
     border: none;
     font-size: 8vmin;
     color: brown;
+    background-color: bisque;
 }
 #reset{
     padding: 1rem;
