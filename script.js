@@ -26,6 +26,17 @@ boxes.forEach((box) => {
                 turn0 = true;
             }
         box.disabled = true;
+
+        checkwinner();
     });
 });
+
+
+const checkwinner = () => {
+    for(let pattern of winPattern) {       
+        let pos1val = boxes[pattern[0]].innerText;
+        let pos2val = boxes[pattern[1]].innerText;
+        let pos3val = boxes[pattern[2]].innerText;
+    }
+}
 
