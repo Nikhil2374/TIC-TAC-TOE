@@ -37,6 +37,12 @@ const checkwinner = () => {
         let pos1val = boxes[pattern[0]].innerText;
         let pos2val = boxes[pattern[1]].innerText;
         let pos3val = boxes[pattern[2]].innerText;
+
+        if(pos1val != "" && pos2val != "" && pos3val != ""){
+            if (pos1val === pos2val && pos2val === pos3val){
+                console.log("winner",pos1val);
+            }
+        }
     }
 }
 
