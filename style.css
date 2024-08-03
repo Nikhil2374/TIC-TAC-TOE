@@ -40,3 +40,20 @@ body {
     background-color: black;
     color: white;
 }
+
+#new-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white; 
+}
+
+#msg{
+    font-size: 10vmin;
+ color: black;
+}
+
+.msg-container{
+ height: 30vmin;
+}
